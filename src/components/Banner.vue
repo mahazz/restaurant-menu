@@ -1,5 +1,6 @@
 <template>
   <div class="banner">
+    <img :src="require('@/assets/images/logo.png')" class="logo-image" />
     <!-- <img :src="require('@/assets/images/background-1.jpg')" class="hero-image" /> -->
     <!-- <img :src="require('@/assets/images/background-1.jpg')" class="banner_image" /> -->
     <div class="slider">
@@ -10,6 +11,8 @@
             <img class="r-img" :src="slide.img" />
             <p class="r-name">{{ slide.name }}</p>
           </div>
+          <br />
+          <p class="r-price">{{ slide.price }}</p>
         </div>
         <div class="slide"></div>
       </agile>
@@ -71,23 +74,28 @@ export default {
       slides: [
         {
           img: require("@/assets/images/pic-1.png"),
-          name: "Chicken Shish Kebab"
+          name: "Chicken Shish Kebab",
+          price: "22$"
         },
         {
           img: require("@/assets/images/pic-2.png"),
-          name: "Chicken with Greek Salad"
+          name: "Chicken with Greek Salad",
+          price: "21$"
         },
         {
           img: require("@/assets/images/pic-3.png"),
-          name: "Hummus with Fattoosh"
+          name: "Hummus with Fattoosh",
+          price: "15$"
         },
         {
           img: require("@/assets/images/pic-4.png"),
-          name: "Chicken Pasta"
+          name: "Chicken Pasta",
+          price: "10$"
         },
         {
           img: require("@/assets/images/pic-5.png"),
-          name: "Grilled Salmon"
+          name: "Grilled Salmon",
+          price: "25$"
         }
       ]
     };
@@ -117,12 +125,25 @@ html {
   width: 100%;
   height: 100vh;
 }
+.logo-image {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  height: 10rem;
+}
 .slider {
   position: relative;
   top: 30%;
   left: 49%;
   width: 37%;
   height: 30%;
+}
+.r-name {
+  padding-left: 10px;
+}
+.r-price {
+  font-size: 30px;
+  padding: 20px;
 }
 .background-shape {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
