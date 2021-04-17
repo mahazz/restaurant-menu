@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <!-- <Header></Header> -->
+    <Header></Header>
     <banner></banner>
     <router-view />
   </div>
 </template>
 <script>
-// import Header from "./components/Header.vue";
+import Header from "./components/Header.vue";
 import banner from "./components/Banner.vue";
 
 export default {
@@ -15,7 +15,7 @@ export default {
     return {};
   },
   components: {
-    // Header,
+    Header,
     banner
   }
   // mounted() {
