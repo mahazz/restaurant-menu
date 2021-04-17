@@ -2,12 +2,14 @@
   <div id="app">
     <Header></Header>
     <banner></banner>
+    <Footer></Footer>
     <router-view />
   </div>
 </template>
 <script>
 import Header from "./components/Header.vue";
 import banner from "./components/Banner.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "app",
@@ -16,12 +18,9 @@ export default {
   },
   components: {
     Header,
-    banner
+    banner,
+    Footer
   }
-  // mounted() {
-  //   this.asNavFor1.push(this.$refs.thumbnails);
-  //   this.asNavFor2.push(this.$refs.main);
-  // }
 };
 </script>
 <style>

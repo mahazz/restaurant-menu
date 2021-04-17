@@ -1,5 +1,14 @@
 <template>
-  <div></div>
+  <!-- <div>
+    <h6 class="copyright">copyright</h6>
+  </div>-->
+  <div id="footer">
+    <p>
+      <span>
+        <strong>&copy; Copyright 2021 Maha A.lzahrani</strong>
+      </span>
+    </p>
+  </div>
 </template>
 
 <script>
@@ -9,4 +18,25 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+#footer {
+  // display: flex;
+  // justify-content: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+  height: 28px;
+}
+
+#footer p {
+  color: #adadad;
+  font-size: 15px;
+  margin: 2px auto 0 auto;
+}
 </style>
