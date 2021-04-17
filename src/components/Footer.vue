@@ -18,14 +18,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.copyright {
-  display: flex;
-  justify-content: center;
-  color: #fff;
-}
 #footer {
-  // display: flex;
-  // justify-content: center;
   position: absolute;
   bottom: 0px;
   left: 0px;
