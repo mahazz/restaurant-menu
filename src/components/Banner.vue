@@ -241,7 +241,7 @@ html {
   align-items: center;
 }
 .d img {
-  width: 155px !important;
+  width: 155px;
 }
 
 .slide--thumbniail {

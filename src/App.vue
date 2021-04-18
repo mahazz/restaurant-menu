@@ -23,5 +23,5 @@ export default {
   }
 };
 </script>
-<style>
+<style lang="css" src="./assets/css/style.css">
 </style>

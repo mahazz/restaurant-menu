@@ -2,7 +2,7 @@
   <!-- <div>
     <h6 class="copyright">copyright</h6>
   </div>-->
-  <div id="footer">
+  <div class="footer">
     <p>
       <span>
         <strong>&copy; Copyright 2021 Maha A.lzahrani</strong>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#footer {
+.footer {
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -27,7 +27,7 @@ export default {
   height: 28px;
 }
 
-#footer p {
+.footer p {
   color: #adadad;
   font-size: 15px;
   margin: 2px auto 0 auto;
