@@ -1,5 +1,79 @@
 /* Responsive */
-
+@media (min-width: 1025px) {
+  .banner {
+    width: 100%;
+    display: block;
+  }
+  .slider {
+    position: relative;
+    top: 30%;
+    left: 49%;
+    width: 37%;
+    height: 30%;
+  }
+  .d img {
+    width: 117px;
+  }
+  .background-shape {
+    position: absolute;
+    top: -27px;
+    left: 50px;
+    width: 92%;
+    height: 158px;
+  }
+  .r-name,
+  .r-price {
+    font-size: 14px;
+  }
+  .logo-image {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    height: 10rem;
+  }
+  .footer p {
+    font-size: 8px;
+  }
+}
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px) {
+  .banner {
+    width: 100%;
+    display: block;
+  }
+  .mobile-btn {
+    position: absolute;
+    right: 7%;
+  }
+  .slider {
+    width: 284px;
+    position: absolute;
+    top: 46%;
+    left: 31%;
+  }
+  .d img {
+    width: 117px;
+  }
+  .background-shape {
+    position: absolute;
+    top: -32px;
+    left: 24px;
+    height: 161px;
+  }
+  .r-name,
+  .r-price {
+    font-size: 14px;
+  }
+  .logo-image {
+    width: 17rem;
+    height: 8rem;
+    position: absolute;
+    top: 14%;
+    left: 33%;
+  }
+  .footer p {
+    font-size: 11px;
+  }
+}
 @media only screen and (min-device-width: 200px) and (max-device-height: 660px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
   .banner {
     width: 100%;
@@ -176,7 +250,7 @@
     top: 14%;
     left: 31%;
   }
-  #footer p {
+  .footer p {
     font-size: 11px;
   }
 }
@@ -186,11 +260,15 @@
     width: 100%;
     display: block;
   }
+  .mobile-btn {
+    position: absolute;
+    right: 7%;
+  }
   .slider {
     width: 284px;
     position: absolute;
     top: 40%;
-    left: 10%;
+    left: 9%;
   }
   .d img {
     width: 117px;
@@ -210,9 +288,9 @@
     height: 5rem;
     position: absolute;
     top: 14%;
-    left: 31%;
+    left: 28%;
   }
-  #footer p {
+  .footer p {
     font-size: 11px;
   }
 }
